@@ -2,7 +2,6 @@ from gameparts import Board
 from gameparts.exceptions import CellOccupiedError, FieldIndexError
 
 
-# Вот она - новая функция!
 def save_result(result):
     with open('results.txt', 'a') as f:
         f.write(result + '\n')
