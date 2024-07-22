@@ -14,6 +14,11 @@ $ git clone https://github.com/HarisNvr/Tic_Tac_Toe.git
 ```
 $ cd Tic_Tac_Toe
 ```
+- Создайте и активируйте виртуальное окружение:
+```
+$ python -m venv venv
+$ source venv/bin/activate
+```
 - Если хотите поиграть в графическую версию, то установите зависимости:
 ```
 $ pip install -r requirements.txt
