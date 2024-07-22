@@ -8,20 +8,20 @@
 - Убедитесь, что у вас установлен Python 3.6 или новее
 - Склонируйте репозиторий:
 ```
-$ git clone https://github.com/HarisNvr/Tic_Tac_Toe.git
+git clone https://github.com/HarisNvr/Tic_Tac_Toe.git
 ```
 - Перейдите в директорию проекта:
 ```
-$ cd Tic_Tac_Toe
+cd Tic_Tac_Toe
 ```
 - Создайте и активируйте виртуальное окружение:
 ```
-$ python -m venv venv
-$ source venv/bin/activate
+python -m venv venv
+source venv/bin/activate
 ```
 - Если хотите поиграть в графическую версию, то установите зависимости:
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Использование
@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 
 - При игре в консольную версию, вам нужно будет вручну пропечатывать в консоли позицию вашего хода.
 ```
-$ python game_console.py
+python game_console.py
 ```
 ```
   1 2 3
@@ -54,7 +54,7 @@ $ python game_console.py
 
 - В графической же версии вам просто нужно кликать мышкой на свободные клетки, чтобы разместить свой символ.
 ```
-$ python game_graphic.py
+python game_graphic.py
 ```
 
 ## Обработка ошибок
